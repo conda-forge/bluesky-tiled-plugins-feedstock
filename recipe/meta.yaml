@@ -1,5 +1,5 @@
 {% set name = "bluesky-tiled-plugins" %}
-{% set version = "2.0.0b68" %}
+{% set version = "2.0.0b69" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/bluesky_tiled_plugins-{{ version }}.tar.gz
-  sha256: e3253f5863fb024447ee773eb025d933b048cd01e56d9c5383fa5de2e1d48485
+  sha256: 4528c7c70a4825bbb8549455de4d9a51b23d879953e99affb7426f2ed552573f
 
 build:
   noarch: python
