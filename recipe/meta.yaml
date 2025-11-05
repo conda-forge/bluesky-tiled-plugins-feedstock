@@ -25,7 +25,7 @@ requirements:
     - dask-core
     - mongoquery
     - pytz
-    - tiled >=0.1.0b4
+    - tiled-client >=0.2.0
     - tzlocal
 
 test:
