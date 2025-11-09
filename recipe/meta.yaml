@@ -1,5 +1,5 @@
 {% set name = "bluesky-tiled-plugins" %}
-{% set version = "2.0.0b69" %}
+{% set version = "2.0.0rc1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/bluesky_tiled_plugins-{{ version }}.tar.gz
-  sha256: 4528c7c70a4825bbb8549455de4d9a51b23d879953e99affb7426f2ed552573f
+  sha256: 91e09b1a17aac932366d47f8856244048f6bed3fdf565639f53189b352ec43cc
 
 build:
   noarch: python
@@ -23,9 +23,10 @@ requirements:
   run:
     - python >={{ python_min }}
     - dask-core
+    - event-model
     - mongoquery
     - pytz
-    - tiled >=0.1.0b4
+    - tiled-client >=0.2.0
     - tzlocal
 
 test:
