@@ -1,13 +1,13 @@
 {% set name = "bluesky-tiled-plugins" %}
-{% set version = "2.0.9" %}
+{% set version = "2.0.10" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/37/2d/ef37751c8fcc3462bbdd437474a2683763627a68a303d3ff03a583a35d4c/bluesky_tiled_plugins-{{ version }}.tar.gz
-  sha256: 30990c6d75b5abef46f801d6da0cc087eb4e7d4ac3b880ca8fae0d67424d04f7
+  url: https://files.pythonhosted.org/packages/04/b4/625229c8c4f88774aaafbd32e0615fe2aa7ef92c86f09c7c872bbcb7060f/bluesky_tiled_plugins-{{ version }}.tar.gz
+  sha256: 3f3f74846d5b0ded1daa39efa7d071e0f1bcc448ad06bd120ee67ef4876ad11e
 
 build:
   noarch: python
