@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/a3/6a/10553e18d644e8aac4af86583f448228a0a8cd6d5bc9ba8bae67b38f4f5f/bluesky_tiled_plugins-{{ version }}.tar.gz
+  url:  https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/bluesky_tiled_plugins-{{ version }}.tar.gz
   sha256: a6dbdcb76961e40d9b7ec3afe92df8e711beea0b2769527e690d3e79dfddd947
 
 build:
